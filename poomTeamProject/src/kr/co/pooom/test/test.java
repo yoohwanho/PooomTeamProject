@@ -7,8 +7,12 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class test {
 
-	@RequestMapping("/test.do")
+	@RequestMapping("/main")
 	public ModelAndView test() {
-		return new ModelAndView("test","msg","안녕하세요");
+		return new ModelAndView("main","msg","안녕하세요");
+	}
+	@RequestMapping("/board")
+	public String board() {
+		return "board";
 	}
 }
