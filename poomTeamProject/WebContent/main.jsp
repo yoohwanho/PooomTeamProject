@@ -8,6 +8,7 @@
 </head>
 <body>
 	${msg }
+	송강
 	<a href="/poomTeamProject/board"><button>게시판</button></a>
 </body>
 </html>
